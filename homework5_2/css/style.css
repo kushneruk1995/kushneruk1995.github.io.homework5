@@ -1,0 +1,67 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 4px solid #000;
+}
+
+.cols1 {
+    height: 30px;
+}
+
+.cols2 {
+    height: 60px;
+}
+
+.cols3 {
+    height: 60px;
+}
+
+.cols4 {
+    height: 30px;
+}
+
+.cols5 {
+    height: 30px;
+}
+
+.cols6 {
+    height: 15px;
+}
+
+.cols7 {
+    height: 15px;
+}
+
+.yellow {
+    background: #fff474;
+}
+
+.red {
+    background: #ff5a2d;
+}
+
+.black {
+    background: #110f10;
+}
+
+.blue {
+    background: #064481;
+}
+
+.no-top-border {
+    border-top: 0;
+}
+
+.no-right-border {
+    border-right: 0;
+}
+
+.no-bottom-border {
+    border-bottom: 0;
+}
+
+.no-left-border {
+    border-left: 0;
+}
