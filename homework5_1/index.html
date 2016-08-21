@@ -1,15 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
-	<style>
-			@font-face {
-		    font-family: Helvetica; /* Гарнитура шрифта */
-		    src: url(fonts/HelveticaNeue.ttf);} /* Путь к файлу со шрифтом */
-	</style>
 </head>
 <body>
 
@@ -20,23 +15,23 @@
 				<li><a href="#">Forum</a></li>
 	            <li><a href="#">Contato</a></li>
 				<li><a href="#">Ajuda</a></li>
-				<li>
-					<a href="#"><div class="center"><img src="img/flag.png" alt=""><p>Minhas Ofertas</p></div></a>
+				<li class="name">
+					<img src="img/flag.png" alt=""><a href="#">Minhas Ofertas</a>
 				</li>
-				<li>Ola! <a href="#">Entrar</a> ou <a href="#">Cadastre-se</a></li>
-			</ul>
+				<li  class="log-in">Ola! <a href="#">Entrar</a> ou <a href="#">Cadastre-se</a></li>
+		</ul>
 	</div>
 
 	<div class="main-div">
 		<form action="#">
-			<span class="border-bottom">Cadastre-se</span>
+			<span>Cadastre-se</span>
 			<input type="button" class="button-login">
 			<p class="title">OU</p>
-			<input type="text" method="post" action="" placeholder="First Name" class="style-input first-name">
-			<input type="text" method="post" action="" placeholder="Last Name" class="style-input last-name">
-			<input type="text" method="post" action="" placeholder="Email Address" class="style-input email">
-			<input type="password" method="post" action="" placeholder="Choose password" class="style-input password">
-			<input type="password" method="post" action="" placeholder="Password Confirm" class="style-input password-confirm">
+			<input type="text" method="post" action="" placeholder="First Name" class="style-input">
+			<input type="text" method="post" action="" placeholder="Last Name" class="style-input">
+			<input type="text" method="post" action="" placeholder="Email Address" class="style-input">
+			<input type="password" method="post" action="" placeholder="Choose password" class="style-input">
+			<input type="password" method="post" action="" placeholder="Password Confirm" class="style-input">
 			
 
 			<p class="checkbox"><input type="checkbox" name"" value="Send me Youbike updates and tips" id="checkbox" > Send me Youbike updates and tips</p>
@@ -46,9 +41,6 @@
 				<p>Xiew our Privacy Policy.</p>
 			</div>
 		</form>
-
-
-		
 	</div>
 	
 </body>
