@@ -5,6 +5,8 @@
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -26,6 +28,11 @@ html {
 /**
  * Remove the margin in all browsers (opinionated).
  */
+
+ form [input="button"]:hover {
+  cursor: pointer;
+
+ }
 
 body {
   margin: 0;
@@ -161,10 +168,6 @@ dfn {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
 
 /**
  * Add the correct background and color in IE 9-.

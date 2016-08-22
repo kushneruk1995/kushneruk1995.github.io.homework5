@@ -27,34 +27,53 @@ body {
 
 .header li {
     float: left;
-    padding: 11px 16px 9px 20px;
 } 
 
 .header li a {
+    display: block;
     color: #60b5ed;
     font-size: 14px;
+    padding: 11px 16px 9px 20px;
 }
 
-.header li:hover {
+.header li a:hover {
     background: #4eabda;
-}
-
-.header li:hover a {
     color: #fff;
 }
 
-.header .name {
-    padding: 11px 16px 3px 20px;
+.name {
+    display: inline-block;
+    float: left;
+    padding: 11px 5px 9px 5px;
+    color: #60b5ed;
+    font-size: 14px;
     border-left: 1px solid #60b5ed;
 }
 
-.header .log-in {
+.name::before {
+    width: 50px;
+    height: 50px;
+    background: url('../img/flag.png');
+}
+
+.name:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    float:right;
+    padding: 11px 16px 9px 20px;
     background: #4eabda;
+    font-size: 14px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+h1 a {
     color: #fff;
 }
 
-.header .log-in a {
-    color: #fff;
+h1 a:hover {
     text-decoration: underline;
 }
 
@@ -90,6 +109,10 @@ form span {
     border: 1px;
     border-radius: 5px;
     background-image: url('../img/button_log.png');
+}
+
+.button-login:hover {
+    cursor: pointer;
 }
 
 .title {
@@ -154,6 +177,10 @@ form span {
     background: #4aa5d7;
     color: #fff;
     font-size: 14px;
+}
+
+.submit:hover {
+    cursor: pointer;
 }
 
 .footer-form {
