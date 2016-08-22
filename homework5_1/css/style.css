@@ -23,7 +23,7 @@ body {
 
 .center {
     width: 1300px;
-    height: auto;
+    height: 37px;
     margin: 0 auto;
 }
 
@@ -163,8 +163,6 @@ form span {
 .style-input:hover {
     border-bottom: 1px solid #689bcc;
     background: linear-gradient(to top, #1d4973  0, #1b5288  50%, #1d4973  100%);
-    -moz-box-shadow: 0 0 10px #666;
-    -webkit-box-shadow: 0 0 10px #666;
     box-shadow: 0 0 10px #666; ;
 }
 
